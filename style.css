@@ -37,3 +37,15 @@
     width: auto;
     border: 1px solid white;
 }
+.description{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: none;
+}
+.hoverme:hover .description{
+    display: block;
+    
+}
