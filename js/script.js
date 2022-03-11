@@ -1,6 +1,22 @@
-$(document).ready(function(){
+// $(document).ready(function(){
     $('.img').click(()=>{
-       $(this).siblings('.description').addClass('d-block')
+       $(this).find('.description').addClass('d-block')
        console.log($(this))
     })
+// })
+// $(document).ready(function(){
+//     $('.icons .img').click(
+//     function(){
+//         $(this).sibling().next().hide();
+//     },
+//     function(){
+//         $(this).sibling().next().next().show();
+//     });
+// });
+$('.img').each(()=>{
+    $(this).click(()=>{
+        // console.log('clicked')
+        $(this).
+    })
+
 })
