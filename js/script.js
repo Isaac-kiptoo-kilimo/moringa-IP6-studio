@@ -4,19 +4,19 @@
        console.log($(this))
     })
 // })
-// $(document).ready(function(){
-//     $('.icons .img').click(
-//     function(){
-//         $(this).sibling().next().hide();
-//     },
-//     function(){
-//         $(this).sibling().next().next().show();
-//     });
-// });
-$('.img').each(()=>{
-    $(this).click(()=>{
-        // console.log('clicked')
-        $(this).
-    })
+$(document).ready(function(){
+    $('.icons').click(
+    function(){
+        $(this).siblings().next('d-block').hide();
+    },
+    function(){
+        $(this).siblings().next('.description').show('slow');
+    });
+});
+// $('.img').each(()=>{
+//     $(this).click(()=>{
+//         // console.log('clicked')
+//         $(this).
+//     })
 
-})
+// })
