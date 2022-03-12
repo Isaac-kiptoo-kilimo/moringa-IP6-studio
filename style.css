@@ -38,11 +38,11 @@
     border: 1px solid white;
 }
 .description{
-    /* position: absolute; */
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    /* background-color: green; */
+     background-color: white; 
     /* display: none; */
 }
 /* .hoverme:hover .description{
@@ -51,4 +51,21 @@
 } */
 .selected{
     display: block;
+}
+.title{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 16px;
+    background-color: #00000090;
+    
+}
+.title h2{
+    color: white;
+    border: 4px solid white;
+    height: 100%;
+    padding: 20px;
+
 }
