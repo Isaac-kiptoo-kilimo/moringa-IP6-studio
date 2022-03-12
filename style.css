@@ -42,10 +42,13 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: green;
+    /* background-color: green; */
     /* display: none; */
 }
 /* .hoverme:hover .description{
     display: block;
     
 } */
+.selected{
+    display: block;
+}
