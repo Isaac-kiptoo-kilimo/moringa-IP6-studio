@@ -38,12 +38,12 @@
     border: 1px solid white;
 }
 .description{
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
-    background-color: white;
-    display: none;
+    background-color: green;
+    /* display: none; */
 }
 /* .hoverme:hover .description{
     display: block;
