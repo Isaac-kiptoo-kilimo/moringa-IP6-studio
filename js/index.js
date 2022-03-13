@@ -27,36 +27,36 @@ form.addEventListener('submit',(e)=>{
     alert(`Hello ${fname.value} ${lname.value}, we have received your message. Thank you fro reaching out to us. `)
 })
 
-function sendMessage(message,name){
-    const data = JSON.stringify({
-        "key": "HbaDQ-6U9OT4QAAs_mVciA",
-        "message": {
-          "from_email": "support@livesoftwaredeveloper.com",
-          "subject": name,
-          "text": message,
-          "to": [
-            {
-              "email": "support@livesoftwaredeveloper.com",
-              "type": "to"
-            }
-          ]
-        }
-      });
+// function sendMessage(message,name){
+//     const data = JSON.stringify({
+//         "key": "HbaDQ-6U9OT4QAAs_mVciA",
+//         "message": {
+//           "from_email": "support@livesoftwaredeveloper.com",
+//           "subject": name,
+//           "text": message,
+//           "to": [
+//             {
+//               "email": "support@livesoftwaredeveloper.com",
+//               "type": "to"
+//             }
+//           ]
+//         }
+//       });
       
-      const xhr = new XMLHttpRequest();
-      xhr.withCredentials = true;
+//       const xhr = new XMLHttpRequest();
+//       xhr.withCredentials = true;
       
-      xhr.addEventListener("readystatechange", function () {
-        if (this.readyState === this.DONE) {
-          console.log(this.responseText);
-        }
-      });
+//       xhr.addEventListener("readystatechange", function () {
+//         if (this.readyState === this.DONE) {
+//           console.log(this.responseText);
+//         }
+//       });
       
-      xhr.open("GET", "https://mandrillapp.com/api/1.0/messages/send/");
-      xhr.setRequestHeader("authorization", "Bearer HbaDQ-6U9OT4QAAs_mVciA");
-      xhr.setRequestHeader("Content-Type", "application/json");
-      xhr.setRequestHeader("mode", "no-cors");
-      xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
+//       xhr.open("GET", "https://mandrillapp.com/api/1.0/messages/send/");
+//       xhr.setRequestHeader("authorization", "Bearer HbaDQ-6U9OT4QAAs_mVciA");
+//       xhr.setRequestHeader("Content-Type", "application/json");
+//       xhr.setRequestHeader("mode", "no-cors");
+//       xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
       
-      xhr.send(data);
-}
+//       xhr.send(data);
+// }
