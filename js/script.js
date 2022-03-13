@@ -21,19 +21,19 @@
         
             
 //         })
-// }
-$(document).ready(function(){
-        $('.design').click(function(){
-                $('#imgdesign').slideToggle();
-                $('#pdesign').slideToggle();
-        })
-        $('.design').click(function(){
-                $('#imgdesign').slideToggle();
-                $('#pdesign').slideToggle();
-        })
+// // }
+// $(document).ready(function(){
+//         $('.design').click(function(){
+//                 $('#imgdesign').slideToggle();
+//                 $('#pdesign').slideToggle();
+//         })
+//         // $('.design').click(function(){
+//         //         $('#imgdesign').slideToggle();
+//         //         $('#pdesign').slideToggle();
+//         // })
 
-        $('.title').hide();
-        $('.por.hover').hover(function(){
-                $(this).find('.title').toggle();
-        })
-})
+//         $('.title').hide();
+//         $('.por.hover').hover(function(){
+//                 $(this).find('.title').toggle();
+//         })
+// })

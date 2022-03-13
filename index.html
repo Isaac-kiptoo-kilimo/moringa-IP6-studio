@@ -7,6 +7,10 @@
     <title>Isaac kiptoo || Delani Studio Website Project</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
    <div class="header">
@@ -44,13 +48,17 @@
        <div class="container">
         <h3 class="text-center mb-4">WHAT WE DO</h3>
            <div class="row align-items-center">
-               <div class="col-md-4  mb-3 design text-center">
-                    <img src="./images/design_icon.png" alt="..."  id="imgdesign" >
-                    <h3>DESIGN</h3>
-        
-                       <p id="pdesign" >Before we sign a contract or write a line of a code our team will spend the necessary time needed to understand your product vision.The outcome of this scoping section is proposal or high-level statement of work.</p>
+               <div class="col-md-4  mb-3 position-relative hoverme">
+                   <div class="img" id="img1">
+                    <img src="./images/design_icon.png" class=" mx-auto d-block" alt="..."  >
+                    <p class="text-center">DESIGN</p>
+                   </div>
+                   <div class="description d-none " id="description1">
+                       <h5>DESIGN</h5>
+                       <p>Before we sign a contract or write a line of a code our team will spend the necessary time needed to understand your product vision.The outcome of this scoping section is proposal or high-level statement of work.</p>
+                   </div>
                </div>
-               <div class="col-md-4 mb-3 position-relative design">
+               <div class="col-md-4 mb-3 position-relative hoverme">
                    
                    <div class="img" id="img2">
                         <img src="./images/dev_icon.png" class=" mx-auto d-block" alt="...">
@@ -61,7 +69,7 @@
                         <p>Before we sign a contract or write a line of a code our team will spend the necessary time needed to understand your product vision.The outcome of this scoping section is proposal or high-level statement of work.</p>
                 </div>
                </div>
-               <div class="col-md-4 mb-3 position-relative design2">
+               <div class="col-md-4 mb-3 position-relative hoverme">
                 <div class="img" id="img3">
                     <img src="./images/product_icon.png" class=" mx-auto d-block" alt="...">
                    <P class="text-center">PRODUCT MANAGEMENT</P>
@@ -78,7 +86,7 @@
        <div class="container">
            <h3 class="text-center">PORTFOLIO</h3>
            <div class="row">
-               <div class="col-md-3 por p-2 my-3 position-relative ">
+               <div class="col-md-3 por p-2  my-3 position-relative ">
                     <img src="./images/work4.jpg" class="img-fluid" alt="...">
                     <div class="title d-none">
                         <h2>Work Four</h2>
@@ -113,7 +121,7 @@
             <div class="col-md-3 my-3 p-2  por position-relative">
                  <img src="./images/work6.jpg" class="img-fluid" alt="...">
                  <div class="title">
-                    <h2 id="worksixhead">Work Six</h2>
+                    <h2>Work Six</h2>
                 </div>      
             </div>
             <div class="col-md-3 my-3  p-2 por position-relative">
@@ -132,22 +140,31 @@
        </div>
    </div>
    <div class="contact-us">
-       <div class="container text-white">
+       <div class="container text-white py-5">
            <h3 class="mt-5 p-4  text-center">CONTACT-US</h3>
-           <form class="mx-5 px-5">
-            <div class="row m-4">
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+           <form class="mx-5 px-5" id="contact-form">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                  <input type="text" class="form-control bg-transparent text-white" placeholder="First name" id="fname" aria-label="First name" required>
                 </div>
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                <div class="col-md-6 mb-3">
+                  <input type="text" id="lname" class="form-control bg-transparent text-white" placeholder="Last name" aria-label="Last name" required>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <textarea name="" id="message"rows="6" class="form-control bg-transparent text-white" placeholder="This is your message..." required>This is your message...
+
+                    </textarea>
                 </div>
               </div>
-              <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 200px"></textarea>
-                <label for="floatingTextarea2">Comments</label>
+              <div class="form-group">
+                  <button class="btn btn-warning text-white">
+                      SEND MESSAGE
+                  </button>
               </div>
            </form>
+           <!-- <div>
+               <iframe src="https://us14.list-manage.com/contact-form?u=d9928f7f35bd7f99411efa40e&form_id=80f0d5780174d3b8956e2a1a86fb997f" frameborder="0" width="100%" height="1050px"></iframe>
+           </div> -->
        </div>
    </div>
    <footer class="container">
@@ -170,6 +187,6 @@
    
    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <!-- <script src="./js/index.js"></script> -->
-<script src="./js/script.js"></script>
+<!-- <script src="./js/script.js"></script> -->
 </body>
 </html>
