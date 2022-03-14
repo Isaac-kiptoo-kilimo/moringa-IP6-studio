@@ -6,7 +6,6 @@ $('.img').click((e)=>{
  
 })
 $('.por').mouseenter((e)=>{
-    console.log($(this))
     $(e.currentTarget).find('.title').addClass('d-block')
     $(e.currentTarget).find('.title').removeClass('d-none')
 })

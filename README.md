@@ -38,7 +38,7 @@ six sections,the about us section,the services offered,what they do section,the 
 
 ### Installation Process 
 
-## Akan Names and Calculation of the Day of the Week Website.
+## Delani Studio Website.
 
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
