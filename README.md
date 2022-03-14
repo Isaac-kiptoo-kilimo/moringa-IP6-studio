@@ -73,7 +73,7 @@ project design link:
 
 ## Project Layout
 
-![Design](/images/project-layout.png)
+![Design](/images/project-layout.jpg)
 
 
 
