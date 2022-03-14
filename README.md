@@ -47,6 +47,13 @@ six sections,the about us section,the services offered,what they do section,the 
 
 * js  -This was used to add functionality to the website.
 
+### Usage / BDD
+Click on the link provided.
+This will get you into the Landing page
+Scroll down to learn more.
+Click on the what we do Icons to see more
+For contact fill all the inputs and we will reach out
+
 ## License -Copyright 
 
 MIT License
