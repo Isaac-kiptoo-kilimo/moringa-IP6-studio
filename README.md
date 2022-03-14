@@ -1,6 +1,6 @@
 # Delani Studio Website
 
-<p>This is a description of Akan Names and Calculation of the Day of the Week Website, 09/03/2022</p>
+<p>This is a description of Delani Studio Website, 09/03/2022</p>
 
 ##### By Isaac kiptoo
 ### Delani studio Website.
@@ -17,7 +17,9 @@
 + [Layout](#project-layout)
 
 ## Description
-<p>This is a simple website of how to get male and female names according to the day of the week. The site is divided into six sections: the header, description part, the form,label,input fields,button and the footer.</p>
+<p>The purpose of the Delani Studio website is to display services offered by the Delani Studio. The site contains
+
+six sections,the about us section,the services offered,what they do section,the portfolio,the contact us page and the footer</p>
 
 ## Set-up/Installation 
 
